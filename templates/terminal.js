@@ -10,6 +10,11 @@ async function additem(data){
     const div = document.createElement("div");
     div.innerHTML = data;
     document.body.append(div);
+
+    {% comment %} const box = document.querySelector(".box");
+    const div = document.createElement("div");
+    div.textContent = data;
+    box.appendChild(div); {% endcomment %}
 }
 
 async function main(){
