@@ -25,5 +25,5 @@ Here are the tools, languages, and frameworks I frequently work with in this rep
 ├── /projects/        # Full-fledged projects
 ├── /snippets/        # Small reusable code snippets
 ├── /practice/        # HTML/CSS/JS templates for small practices
-├── /experiments/     # Experimental work and POCs
+├── /questions/       # questions for practice
 ├── README.md         # You're here!
