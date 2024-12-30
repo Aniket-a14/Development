@@ -1,11 +1,7 @@
 async function getsong() {
     // Simulated response
     let a = await fetch("http://127.0.0.1:3000/projects/spotify_clone/songs/");
-    let res= await a.text();
-    let response = `
-        <a href="http://127.0.0.1:3000/projects/spotify_clone/songs/song1.mp3"></a>
-        <a href="http://127.0.0.1:3000/projects/spotify_clone/songs/song2.mp3"></a>
-    `;
+    let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response; 
 
