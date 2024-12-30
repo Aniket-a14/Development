@@ -1,28 +1,26 @@
-async function getsong(){
-    let a = await fetch("http://127.0.0.1:3000/projects/spotify_clone/songs/")
-    let response = await a.text();
-    console.log(response)
+async function getsong() {
+    // Simulated response
+    let a = await fetch("http://127.0.0.1:3000/projects/spotify_clone/songs/");
+    let res= await a.text();
+    let response = `
+        <a href="http://127.0.0.1:3000/projects/spotify_clone/songs/song1.mp3"></a>
+        <a href="http://127.0.0.1:3000/projects/spotify_clone/songs/song2.mp3"></a>
+    `;
+    let div = document.createElement("div");
+    div.innerHTML = response; 
 
-    let div= document.createElement("div");
-    div.innerHTML= response;
-    console.log(div.innerHTML)
-    let as= document.getElementsByTagName("a");
-    let songs=[];
-    console.log(as)
-
-    for (let index = 0; index < as.length; index++) {
-        const element = as[index];
-        if(element.href.endsWith(".mp3")){
-            songs.push(element.href.split("/songs/")[1])
+    let as = div.getElementsByTagName('a'); 
+    let songs = [];
+    for (let element of as) {
+        if (element.href.endsWith(".mp3")) {
+            songs.push(element.href);
         }
     }
-    console.log(songs)
-
-    return songs;
+    return songs;  
 }
 
 async function main() {
-    let songs= await getsong()
+    let songs= await getsong();
     console.log(songs)
     var audio= new Audio(songs[0]);
     audio.play();
