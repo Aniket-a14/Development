@@ -86,6 +86,7 @@ body{
 .right{
     margin: 16px 0;
     margin-bottom: 18px;
+    position: relative;
 }
 
 .spotifyPlaylist{
@@ -162,4 +163,17 @@ body{
 .loginbtn:hover{
     font-weight: 1000;
     font-size: 14px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+}
+
+.songbutton {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
