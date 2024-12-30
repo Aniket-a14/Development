@@ -14,7 +14,7 @@ body{
 
 .left{
     width: 20vw;
-    padding: 5px 0 5px 0;
+    padding: 5px 3px 5px 0;
     margin: 5px;
     margin-right: 2px;
 }
@@ -167,13 +167,24 @@ body{
 
 .playbar{
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: 13px;
+    width: 96%;
     padding: 12px;
+    background-color: rgb(64, 78, 64);
+    border-radius: 7px;
 }
 
 .songbutton {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.songlist ul{
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.songlist ul li{
+    list-style-type: decimal;
 }
