@@ -52,6 +52,8 @@ async function getsong(folder) {
             playMusic(e.querySelector(".info").firstElementChild.innerHTML)
         })
     })
+
+    return songs;
 }
 const playMusic = (track, pause = false) => {
     currentsong.src = `/projects/spotify_clone/${currfolder}/` + track
@@ -104,6 +106,7 @@ async function displayAlbums() {
     Array.from(document.getElementsByClassName("card")).forEach(e => {
         e.addEventListener("click", async item => {
             songs = await getsong(`songs/${item.currentTarget.dataset.folder}`);
+            playMusic(songs[0]);
         })
     })
 
