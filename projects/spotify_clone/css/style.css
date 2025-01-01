@@ -377,7 +377,7 @@ body {
 
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
     .left {
         position: absolute;
         left: -130%;

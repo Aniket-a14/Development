@@ -177,9 +177,11 @@ async function main() {
         if(e.target.src.includes("svg/volume.svg")){
             e.target.src = "svg/mute.svg"
             currentsong.volume = 0;
+            document.querySelector(".range").getElementsByTagName("input")[0].value = 0;
         }else{
             e.target.src = "svg/volume.svg"
             currentsong.volume = 0.10;
+            document.querySelector(".range").getElementsByTagName("input")[0].value = 10;
         }
     })
 
