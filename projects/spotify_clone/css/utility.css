@@ -121,9 +121,20 @@ body {
     width: 30px;
 }
 
+.v-1{
+    width: 150px;
+}
+
 @media (max-width: 1914px) {
     .w-1{
         width: 130px;
     }
+}
+
+@media (max-width: 700px) {
+    .v-1{
+        width: 100px;
+    }
+    
 }
 
