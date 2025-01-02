@@ -2,6 +2,20 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "http-proxy-middleware": "^3.0.3"
-  }
+    "http-proxy-middleware": "^3.0.3",
+    "slugify": "^1.6.6"
+  },
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "Checking for future use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netflix",
+    "content"
+  ],
+  "author": "Aniket",
+  "license": "ISC"
 }
