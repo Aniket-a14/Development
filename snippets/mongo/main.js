@@ -1,14 +1,8 @@
 import express from "express";
 import mongoose from "mongoose"; 
 import cors from "cors";
+import Company from "./models/company.js";
 
-// Define the Company schema and model
-const companySchema = new mongoose.Schema({
-  name: String,
-  salary: Number,
-});
-
-const Company = mongoose.model("Company", companySchema);
 
 const app = express();
 app.use(express.json());
@@ -16,7 +10,6 @@ app.use(cors());
 
 const port = 3000;
 
-// Start the server and connect to the database
 const start = async () => {
   try {
     await mongoose.connect("mongodb://127.0.0.1:27017/Company", {
@@ -47,6 +40,9 @@ app.get("/put", async (req, res) => {
   const randomSalaries = [12000, 56333, 66764, 57673];
 
   try {
+
+    await Company.deleteMany({})
+
     const results = [];
     for (let i = 0; i < 10; i++) {
       const newCompany = new Company({
@@ -56,7 +52,7 @@ app.get("/put", async (req, res) => {
       const savedCompany = await newCompany.save();
       results.push(savedCompany);
     }
-    res.send(results); // Send all results at once
+    res.send(results);
   } catch (error) {
     res.status(500).send("Error creating companies: " + error.message);
   }
