@@ -63,7 +63,7 @@ Development/
 - **Search:** Look for your favorite tracks or artists
 - **Library:** Access your saved playlists and liked songs
 
-![Spotify Clone UI](https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png)
+![Spotify Clone UI](https://via.placeholder.com/800x400?text=Spotify+Clone+Screenshot)
 
 ### 💡 Code Snippets
 This repository includes useful code snippets for:
