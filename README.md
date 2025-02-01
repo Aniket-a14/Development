@@ -1,6 +1,5 @@
 # Development Repository
 
-![Development Banner](https://via.placeholder.com/1200x400?text=Development+Projects)
 
 Welcome to the **Development Repository**! 🚀 This repository is a collection of projects, practice exercises, and useful code snippets aimed at improving coding skills and exploring new technologies.
 
@@ -62,8 +61,6 @@ Development/
 - **Home Page:** Browse featured playlists and songs
 - **Search:** Look for your favorite tracks or artists
 - **Library:** Access your saved playlists and liked songs
-
-![Spotify Clone UI](https://via.placeholder.com/800x400?text=Spotify+Clone+Screenshot)
 
 ### 💡 Code Snippets
 This repository includes useful code snippets for:
