@@ -94,7 +94,7 @@ For any inquiries or collaborations, feel free to reach out:
 
 - **LinkedIn:** [Aniket Saha](https://www.linkedin.com/in/aniket-saha/)
 - **Portfolio:** [wizfolio.netlify.app](https://wizfolio.netlify.app/)
-- **Email:** aniket@example.com
+- **Email:** aniketsahaworkspace@gmail.com
 
 ---
 *Happy Coding! 🚀*
