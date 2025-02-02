@@ -50,6 +50,7 @@ Development/
 │── practice/        # Practice exercises and solutions
 │── projects/        # Complete projects
 │   ├── spotify_clone/   # Spotify Clone Web App
+    ├── todo_list/       # To-Do List App
 │── snippets/        # Useful reusable code snippets
 │── questions/       # Coding challenges and solutions
 │── README.md        # Project Documentation
@@ -61,6 +62,11 @@ Development/
 - **Home Page:** Browse featured playlists and songs
 - **Search:** Look for your favorite tracks or artists
 - **Library:** Access your saved playlists and liked songs
+
+### 📝 Todo List App
+- **Add Tasks:** Create new tasks to keep track of your to-dos.
+- **Mark Complete:** Mark tasks as complete when done.
+- **Delete Tasks:** Remove tasks that are no longer needed.
 
 ### 💡 Code Snippets
 This repository includes useful code snippets for:
