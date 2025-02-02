@@ -101,7 +101,7 @@ function App() {
           {todos.length === 0 && <div className="text-center">No Todos to Display. Add More to Continue</div>}
           {todos.map((item) => {
             return (showFinished || !item.isCompleted) && <div key={item.id} className="todo w-1/2 flex justify-between items-center bg-white p-1 my-2 rounded-md shadow-md">
-              <div className="flex gap-4 w-3/4">
+              <div className="flex gap-4 w-1/2">
               <input className="mt-1" name={item.id} onChange={handleCheckbox} type="checkbox" checked={item.isCompleted} id=""/>
               <div className={item.isCompleted?"line-through":""} >{item.todo}</div>
               </div>
@@ -110,7 +110,7 @@ function App() {
                   onClick={()=>{editTodo(item.id)}}
                   className="bg-violet-900 text-white rounded-md px-3 py-1 mx-2"
                 >
-                  edit
+                  Edit
                 </button>
                 <button
                   onClick={()=>{deleteTodo(item.id)}}
