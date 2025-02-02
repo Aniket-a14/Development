@@ -92,7 +92,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or collaborations, feel free to reach out:
 
-- **LinkedIn:** [Aniket Saha](https://www.linkedin.com/in/aniket-saha/)
+- **LinkedIn:** [Aniket Saha](www.linkedin.com/in/aniketsaha2005)
 - **Portfolio:** [wizfolio.netlify.app](https://wizfolio.netlify.app/)
 - **Email:** aniketsahaworkspace@gmail.com
 
