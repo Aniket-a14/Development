@@ -12,10 +12,7 @@ const port = 3000;
 
 const start = async () => {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/Company", {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect("mongodb://127.0.0.1:27017/Company");
     console.log("Database connected");
   } catch (e) {
     console.error("Error connecting to the database", e);
