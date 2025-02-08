@@ -15,25 +15,35 @@ const Contain = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const onSubmit = async (data) => {
-    setIsSubmitting(true);
-    let r = await fetch("http://localhost:5000/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-    let res= await r.text();
-    console.log(res);
-    if(r.ok){
-      setTimeout(() => {
-        setIsSubmitting(false);
-        reset();
-      }, 2000);
-    }else{
-      alert("Some error occured!")
+    try {
+      setIsSubmitting(true);
+      let r = await fetch("http://localhost:5000/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+  
+      let res = await r.text();
+      console.log(res);
+  
+      if (r.ok) {
+        setTimeout(() => {
+          setIsSubmitting(false);
+          reset();
+        }, 2000);
+      } else {
+        alert("Some error occurred!");
+      }
+    } catch (error) {
+      alert("Failed to fetch! Please check your network connection or try again later.");
+    } finally {
+      reset();
+      setIsSubmitting(false);
     }
   };
+  
 
 
 
