@@ -2,12 +2,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
+    <>
     <div className="container p-3 bg-[rgba(255,255,255,.35)] rounded-full mt-4 mx-auto flex justify-between items-center">
-      <div className="relative left-1">
+      <div className="relative left-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-        wstrokeWidth="24"
+          wstrokeWidth="24"
           height="24"
           color="rgb(255,255,255)"
           fill="none"
@@ -49,12 +50,16 @@ const Navbar = () => {
       </div>
       <div className="info">
         <ul className="flex space-x-6 relative right-7 text-gray-200">
-          <li className="cursor-pointer hover:text-blue-400">Home</li>
-          <li className="cursor-pointer hover:text-blue-400">About</li>
-          <li className="cursor-pointer hover:text-blue-400">Contact</li>
+          <li className="cursor-pointer font-semibold hover:text-blue-400">Home</li>
+          <li className="cursor-pointer font-semibold hover:text-blue-400">About</li>
+          <li className="cursor-pointer font-semibold hover:text-blue-400">Contact</li>
         </ul>
       </div>
     </div>
+    <div className="text-white flex justify-center font-bold mt-4">
+      iPassWord - Your Own PassWord Manager App
+    </div>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Manage from './components/Manage'
 import Background from './components/Background'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -9,7 +10,10 @@ function App() {
     <>
       <Background/>
       <Navbar/>
-      <Manage/>
+      <div className='max-h-[70vh]'>
+        <Manage/>
+      </div>
+      <Footer/>
     </>
   )
 }
