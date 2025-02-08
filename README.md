@@ -68,6 +68,11 @@ Development/
 - **Mark Complete:** Mark tasks as complete when done.
 - **Delete Tasks:** Remove tasks that are no longer needed.
 
+### 🔐 Password Manager
+- **Add Passwords:** Securely store your passwords.
+- **Safe Passwords:** Safe local space to store your passwords.
+- **Delete PassWords:** Delete Your Passwords hassele-free.
+
 ### 💡 Code Snippets
 This repository includes useful code snippets for:
 - Sorting algorithms
