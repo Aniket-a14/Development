@@ -1,6 +1,24 @@
 import { Textarea } from "@/app/Components/ui/textarea";
 import { AccordionDemo } from "./Components/Questions";
 
+export const metadata = {
+  title: 'Get me a Biriyani - Support Your Favorite Creators',
+  description: 'A Simple Monetary Platform to receive funds from your followers',
+  keywords: ['donations', 'creators', 'support', 'payments', 'biriyani'],
+  openGraph: {
+    title: 'Get me a Biriyani - Support Your Favorite Creators',
+    description: 'A Simple Monetary Platform to receive funds from your followers',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://getmeabiriyani.com',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Get me a Biriyani - Support Your Favorite Creators',
+    description: 'A Simple Monetary Platform to receive funds from your followers',
+  },
+};
+
 export default function Home() {
   return (
     <>
@@ -18,16 +36,10 @@ export default function Home() {
             >
               Start here
             </button>
-            <button
-              type="button"
-              className="mt-3 py-2.5 px-5 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700"
-            >
-              Read More
-            </button>
           </div>
         </div>
       </div>
-      <div className="bg-[rgba(255,255,255,.35)] h-1"></div>
+      <div className="bg-[rgba(255,255,255,.35)] h-[2px]"></div>
 
       <div className="text-white container flex flex-col mx-auto pt-6 pb-24">
         <h1 className="text-xl font-bold text-center my-10">What Services do we provide?</h1>
