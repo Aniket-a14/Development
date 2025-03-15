@@ -1,6 +1,5 @@
 # Development Repository
 
-
 Welcome to the **Development Repository**! 🚀 This repository is a collection of projects, practice exercises, and useful code snippets aimed at improving coding skills and exploring new technologies.
 
 ## 📌 Table of Contents
@@ -20,6 +19,7 @@ This repository contains various projects and code snippets to help with:
 - Practicing problem-solving and data structures
 - Building and experimenting with different web technologies
 - Creating reusable components and utilities
+
 
 ## 🛠️ Installation & Setup
 
@@ -49,8 +49,12 @@ npm start
 Development/
 │── practice/        # Practice exercises and solutions
 │── projects/        # Complete projects
-│   ├── spotify_clone/   # Spotify Clone Web App
-    ├── todo_list/       # To-Do List App
+│   ├── get_me_a_biriyani/   # Get Me A Biriyani Project
+│   ├── password_manager/     # Password Manager Project
+│   ├── portfolio/            # Portfolio Project
+│   ├── spotify_clone/        # Spotify Clone Web App
+│   ├── todo_list/           # To-Do List App
+│   ├── url_shortner/         # URL Shortener Project
 │── snippets/        # Useful reusable code snippets
 │── questions/       # Coding challenges and solutions
 │── README.md        # Project Documentation
@@ -71,7 +75,18 @@ Development/
 ### 🔐 Password Manager
 - **Add Passwords:** Securely store your passwords.
 - **Safe Passwords:** Safe local space to store your passwords.
-- **Delete PassWords:** Delete Your Passwords hassele-free.
+- **Delete PassWords:** Delete Your Passwords hassle-free.
+
+### 🍛 Get Me A Biriyani
+- **User Authentication:** Secure login and registration.
+- **Dashboard:** Access various features and components.
+
+### 🖼️ Portfolio
+- **Showcase Projects:** Display skills and projects.
+- **Contact Information:** Reach out for collaborations.
+
+### 🔗 URL Shortener
+- **Shorten Links:** Easily shorten and manage URLs.
 
 ### 💡 Code Snippets
 This repository includes useful code snippets for:
